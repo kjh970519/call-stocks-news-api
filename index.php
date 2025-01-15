@@ -13,11 +13,11 @@
         CURLOPT_CUSTOMREQUEST => 'GET',
         CURLOPT_HTTPHEADER => array(
             'Cookie: __test=34e0a0997d7ee3a4c2768d203b4147f5',
-            'Host: www.web-bro.ct.ws',
-            'user-agent: Mozilla/4.0 (compatible; cron-job.org; http://cron-job.org/abuse/)'
+            'upgrade-insecure-requests: 1',
+            'Host: www.web-bro.ct.ws'
         ),
     ));
-    
+
     $response = curl_exec($curl);
 
     curl_close($curl);
