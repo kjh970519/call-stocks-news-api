@@ -12,8 +12,8 @@
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'GET',
         CURLOPT_HTTPHEADER => array(
-            'Cookie: __test=34e0a0997d7ee3a4c2768d203b4147f5',
-            'upgrade-insecure-requests: 1',
+            'Cookie: __test=6e66ba03dd4a3806faa76f7eac47bb83',
+            'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
             'Host: www.web-bro.ct.ws'
         ),
     ));
@@ -21,6 +21,11 @@
     $response = curl_exec($curl);
 
     curl_close($curl);
-    echo $response;
+
+    function xmp($vars) {
+        echo "<xmp style='background-color: #6BB6BB'>";
+        print_r($vars);
+        echo "</xmp>";
+    }
 
 ?>
