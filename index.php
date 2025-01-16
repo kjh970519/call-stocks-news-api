@@ -12,7 +12,7 @@
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'GET',
         CURLOPT_HTTPHEADER => array(
-            'Cookie: __test=d154d5f7a461fbddbe9acca84a4ba7b9',
+            'Cookie: __test=e0bd7a371c527dbb406d1d48153b236b',
             'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
             'Host: www.web-bro.ct.ws'
         ),
